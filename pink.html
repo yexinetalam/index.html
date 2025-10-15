@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats & Dogs World</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff0f5;
+            color: #4a4a4a;
+        }
+        header {
+            background-color: #ff99c8;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            border-bottom: 5px solid #ffb6c1;
+        }
+        nav {
+            background-color: #ffd6e0;
+            text-align: center;
+            padding: 0.8rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #d63384;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #a3165d;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #d63384;
+            text-align: center;
+        }
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffe6ee;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .info img {
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 15px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #ff99c8;
+            color: white;
+            margin-top: 2rem;
+            border-top: 4px solid #ffb6c1;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            background-color: #ffe6ee;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 0 auto;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ffb6c1;
+            font-family: inherit;
+            background-color: #fff;
+        }
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #ff66a3;
+        }
+        button {
+            background-color: #ff80b5;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #ff4d94;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Cats & Dogs World 🐾</h1>
+        <p>Learn, love, and care for your furry friends in a world of pink warmth!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#cats">Cats</a>
+        <a href="#dogs">Dogs</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <B><p style="text-align:center;"">We are animal lovers spreading happiness and knowledge about cats and dogs — your loyal and lovable companions!
+             Explore cute facts, tips, and adorable photos in our pink-themed world of pets.</p></B>
+    </section>
+
+    <section id="cats">
+        <h2>All About Cats 🐱</h2>
+        <div class="info">
+            <img src="fatcat.jpg" alt="Cat">
+            <H1>MEET FATCAT</H1></P>
+           <b><p>Cats are independent, graceful, and playful. 
+            Known for their curiosity and charm, they bring calmness and joy to any home.
+             Popular breeds include the Persian, Siamese, and Maine Coon.
+              Cats love warm naps, gentle cuddles, and exploring hidden corners!</p><b>
+        </div>
+    </section>
+
+    <section id="dogs">
+    <h2>All About Dogs 🐶</h2>
+    <div class="info">
+       <img src="burking.jpg" alt="dog">
+     <H1>MEET BURKING</H1>
+       <b><p>Dogs are loyal, cheerful, and protective companions. They love playing, walking, and staying close to their humans. 
+        Common breeds include the Labrador, Golden Retriever, and German Shepherd — but every dog, just like this one, 
+        has their own adorable personality and heart full of love!</p></b>
+    </div>
+</section>
+
+
+    <section id="gallery">
+        <h2>Gallery 💕</h2>
+        <div class="gallery">
+            <img src="chopper.jpg" alt="Cute dog">
+            <img src="monyo.jpg" alt="Happy Dog">
+            <img src="ceddie.jpg" alt="Playful Dog">
+            <img src="cat.jpg" alt="Playful cat">
+            <img src="cute.jpg" alt="Playful Dog">
+            <img src="kat.jpg" alt="Playful Dog">
+            
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us 💌</h2>
+        <p style="text-align:center;">Have a question or want to share a story about your pet? We'd love to hear from you!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Cats & Dogs World | Made with 💗 by Marielle Funtanaress 🐾</p>
+    </footer>
+
+</body>
+</html>
